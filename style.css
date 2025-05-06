@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    font-style: normal;
+    font-weight: 400, 600, 700;
+    font-display: swap;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.card {
+    font-family: 'Inter';
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+    height: 610px;
+    width: 370px;
+    border-radius: 15px;
+}
+
+img {
+    margin-top: 50px;
+    border-radius: 50%;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+h2 {
+    margin-top: 20px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+.location {
+    margin-top: -10px;
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+
+.post {
+    font-weight: 400;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(5, 40px);
+    place-items: center;
+    gap: 10px;
+}
+
+.element {
+    font-family: 'Inter';
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+    font-weight: 600;
+}
+
+.element:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
+.attribution { font-size: 11px; text-align: center; color: white;}
+.attribution a { color: hsl(228, 45%, 44%); }
